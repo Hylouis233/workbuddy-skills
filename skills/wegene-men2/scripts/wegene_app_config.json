@@ -1,0 +1,248 @@
+{
+  "app_name": "MEN2风险筛查",
+  "description": "多发性内分泌腺瘤病2型(MEN2)相关RET基因突变风险筛查",
+  "version": "1.1.0",
+  "verification_status": "verified",
+  "verification_date": "2025-03-04",
+  "disclaimer": "本检测结果仅供参考，不能替代专业医疗诊断。如有阳性结果，请务必咨询遗传咨询师和内分泌科医生。",
+  "controversial_variants": {
+    "rs77503510": {
+      "change": "Y791F",
+      "note": "⚠️ 争议性变异 - 近期研究显示可能非致病，不建议单独作为手术依据",
+      "recommendation": "如检测到此变异，建议进一步遗传咨询"
+    }
+  },
+  "snps": {
+    "MEN2B_HIGHEST_RISK": {
+      "description": "MEN2B最高风险突变",
+      "variants": {
+        "rs74799832": {
+          "codon": 918,
+          "change": "M918T",
+          "risk_allele": "C",
+          "risk_level": "highest",
+          "genotype_risk": {
+            "TT": "正常",
+            "TC": "MEN2B风险携带者",
+            "CC": "MEN2B患者"
+          }
+        },
+        "rs75249108": {
+          "codon": 883,
+          "change": "A883F",
+          "risk_allele": "T",
+          "risk_level": "highest",
+          "genotype_risk": {
+            "CC": "正常",
+            "CT": "MEN2B风险携带者",
+            "TT": "MEN2B患者"
+          }
+        }
+      }
+    },
+    "MEN2A_HIGH_RISK": {
+      "description": "MEN2A高风险突变(密码子634)",
+      "variants": {
+        "rs75076352": {
+          "codon": 634,
+          "change": "C634R",
+          "risk_allele": "C",
+          "risk_level": "high",
+          "frequency": "42%",
+          "genotype_risk": {
+            "TT": "正常",
+            "TC": "MEN2A风险携带者",
+            "CC": "MEN2A患者"
+          }
+        },
+        "rs75996173": {
+          "codon": 634,
+          "change": "C634Y",
+          "risk_allele": "A",
+          "risk_level": "high",
+          "frequency": "27%",
+          "genotype_risk": {
+            "GG": "正常",
+            "AG": "MEN2A风险携带者",
+            "AA": "MEN2A患者"
+          }
+        },
+        "rs75686487": {
+          "codon": 634,
+          "change": "C634W",
+          "risk_allele": "G",
+          "risk_level": "high",
+          "frequency": "9%",
+          "genotype_risk": {
+            "CC": "正常",
+            "CG": "MEN2A风险携带者",
+            "GG": "MEN2A患者"
+          }
+        },
+        "rs75234356": {
+          "codon": 634,
+          "change": "C634S",
+          "risk_allele": "A",
+          "risk_level": "high",
+          "frequency": "7%",
+          "genotype_risk": {
+            "TT": "正常",
+            "TA": "MEN2A风险携带者",
+            "AA": "MEN2A患者"
+          }
+        },
+      }
+    },
+    "MEN2A_MODERATE_RISK": {
+      "description": "MEN2A/FMTC中等风险突变(外显子10)",
+      "variants": {
+        "rs77503501": {
+          "codon": 620,
+          "change": "C620R",
+          "risk_allele": "C",
+          "risk_level": "moderate",
+          "genotype_risk": {
+            "TT": "正常",
+            "TC": "风险携带者",
+            "CC": "患者"
+          }
+        },
+        "rs77503502": {
+          "codon": 618,
+          "change": "C618R",
+          "risk_allele": "C",
+          "risk_level": "moderate",
+          "genotype_risk": {
+            "TT": "正常",
+            "TC": "风险携带者",
+            "CC": "患者"
+          }
+        },
+        "rs77503504": {
+          "codon": 611,
+          "change": "C611Y",
+          "risk_allele": "A",
+          "risk_level": "moderate",
+          "genotype_risk": {
+            "GG": "正常",
+            "AG": "风险携带者",
+            "AA": "患者"
+          }
+        },
+        "rs77503506": {
+          "codon": 609,
+          "change": "C609Y",
+          "risk_allele": "A",
+          "risk_level": "moderate",
+          "genotype_risk": {
+            "GG": "正常",
+            "AG": "风险携带者",
+            "AA": "患者"
+          }
+        }
+      }
+    },
+    "FMTC_LOW_RISK": {
+      "description": "FMTC低风险突变(外显子13-15)",
+      "variants": {
+        "rs77503508": {
+          "codon": 768,
+          "change": "E768D",
+          "risk_allele": "C",
+          "risk_level": "low",
+          "genotype_risk": {
+            "GG": "正常",
+            "GC": "风险携带者",
+            "CC": "患者"
+          }
+        },
+        "rs77503509": {
+          "codon": 790,
+          "change": "L790F",
+          "risk_allele": "T",
+          "risk_level": "low",
+          "genotype_risk": {
+            "GG": "正常",
+            "GT": "风险携带者",
+            "TT": "患者"
+          }
+        },
+        "rs77503511": {
+          "codon": 804,
+          "change": "V804M",
+          "risk_allele": "A",
+          "risk_level": "low",
+          "frequency": "较常见",
+          "genotype_risk": {
+            "GG": "正常",
+            "GA": "风险携带者",
+            "AA": "患者"
+          }
+        },
+        "rs77503512": {
+          "codon": 804,
+          "change": "V804L",
+          "risk_allele": "C",
+          "risk_level": "low",
+          "genotype_risk": {
+            "GG": "正常",
+            "GC": "风险携带者",
+            "CC": "患者"
+          }
+        }
+      }
+    }
+  },
+  "risk_levels": {
+    "highest": {
+      "level": 4,
+      "name": "最高风险",
+      "description": "ATA-HST级别，建议6月龄前预防性甲状腺切除",
+      "color": "#FF0000",
+      "subtype": "MEN2B"
+    },
+    "high": {
+      "level": 3,
+      "name": "高风险",
+      "description": "ATA-H级别，建议3-5岁前预防性甲状腺切除",
+      "color": "#FF6600",
+      "subtype": "MEN2A"
+    },
+    "moderate": {
+      "level": 2,
+      "name": "中等风险",
+      "description": "ATA-MOD级别，手术时机可根据降钙素水平调整",
+      "color": "#FFCC00",
+      "subtype": "MEN2A/FMTC"
+    },
+    "low": {
+      "level": 1,
+      "name": "低风险",
+      "description": "ATA-MOD级别，手术可适当延迟",
+      "color": "#00CC00",
+      "subtype": "FMTC"
+    }
+  },
+  "output_template": {
+    "no_risk": "未检测到MEN2相关的RET基因致病突变。",
+    "carrier": "检测到RET基因{variant}突变({rsid})，属于{risk_level}风险。建议咨询遗传咨询师和内分泌科医生。",
+    "controversial": "检测到RET基因{variant}变异({rsid})，该变异的临床意义存在争议。建议咨询遗传咨询师获取最新研究进展。",
+    "recommendations": {
+      "highest": "建议：立即进行内分泌科就诊，考虑预防性甲状腺切除术（<6月龄）。",
+      "high": "建议：尽快进行内分泌科就诊，考虑预防性甲状腺切除术（3-5岁前）。",
+      "moderate": "建议：定期监测降钙素水平，根据结果决定手术时机。",
+      "low": "建议：定期随访，监测降钙素水平。"
+    }
+  },
+  "verification_summary": {
+    "total_variants": 18,
+    "verified": 16,
+    "partial": 1,
+    "controversial": 1,
+    "unverified": 0,
+    "notes": [
+      "rs77877000 (C634F) 和 rs75063161 (C634G) 已删除 - 经验证为错误的rs号",
+      "rs77503510 (Y791F) 为争议性变异，不建议单独作为临床决策依据"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "format": "wegene_affy_2",
+    "RS1801483": "GA",
+    "sex": 1,
+    "age": 28
+  }
+}

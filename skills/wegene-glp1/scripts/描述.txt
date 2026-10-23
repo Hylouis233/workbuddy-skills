@@ -1,0 +1,123 @@
+GLP1应用描述：
+精准破译您的“瘦身基因密码”：评估您对司美格鲁肽等 GLP-1 类多肽药物的遗传应答敏感度，告别盲目试药。
+科学背景与临床意义
+近年来，以司美格鲁肽、利拉鲁肽为代表的 GLP-1 受体激动剂在减重与糖脂代谢管理领域表现卓越。然而，真实的临床队列研究表明：不同个体对该类药物的体重下降幅度、起效时间存在显著的“个体差异”。
+这并非因为您不够自律，而是由您的基因底色决定的。
+本应用基于大规模全基因组关联分析（GWAS）与国际权威药物基因组学（PharmGKB）数据，深度解析您的 GLP1R 基因核心多态性位点。通过多基因风险评分（PRS）模型，评估您的受体结构与药物结合的亲和力，科学预测您属于“高敏感应答者”还是“低敏感迟钝者”
+您将在这份报告中获得：
+GLP-1 药物疗效预测： 评估您使用单靶点 GLP-1 药物的预期体重管理效率。
+饱腹感传导效率分析： 探究您的下丘脑受体在接收 GLP-1 信号时，抑制食欲的天然敏感度。
+胰岛素分泌敏化潜能： 评估药物在改善您糖代谢和胰岛素抵抗方面的遗传优势。
+
+联合评估推荐
+多肽类减重药物正在向“多靶点”进化，且用药安全性至关重要。为了获得最全面、最严谨的个性化用药指导，强烈建议您结合本系列其他专业微报告进行综合评估：
+ 追求前沿高效？请联合测试进阶靶点：
+如果您关注最新的双靶点（如替尔泊肽 Tirzepatide）或三靶点（如瑞他鲁肽 瑞他鲁肽）药物，单一的 GLP-1 评估已不足够。建议您补充测试：
+[GIP受体(GIPR)促代谢应答敏感性基因评估] —— 评估您对双靶点药物中 GIP 成分的增效反应。
+[胰高血糖素受体(GCGR)敏感性基因评估] —— 揭秘三靶点药物中，您燃烧基础代谢的基因潜能。
+
+GLP-1 类药物并非人人适用。为了您的健康，在考虑使用任何相关药物前，请务必完成以下副作用与禁忌症的遗传易感性排查：
+ [多肽减重药黑框禁忌：MEN2/MTC 遗传易感性筛查] —— 极重要！ 针对 FDA 黑框警告的甲状腺髓样癌（MTC）相关基因进行权威筛查，排除绝对用药禁忌。
+[多肽减重药胃肠道与神经耐受性(CGRP)基因评估] —— 预测您在使用该类药物时，发生严重恶心、呕吐等胃肠道不良反应及血管舒缩风险的概率。
+
+GIPR应用描述：
+
+
+参考文献：
+. Scott R A, et al. (2016)
+标题: A genomic approach to therapeutic target validation identifies a glucose-lowering GLP1R variant protective for coronary heart disease
+
+期刊: Science Translational Medicine
+
+链接: https://doi.org/10.1126/scitranslmed.aad3744
+
+备用链接: PubMed (PMID: 27252175)
+
+2. Mashayekhi M, et al. (2025)
+标题: Effects of a GLP-1 receptor polymorphism on responses to liraglutide
+
+期刊: Journal of Endocrinology
+
+更正说明: 2025年发表于《Journal of Endocrinology》且标题完全一致的论文确实存在，但其实际第一作者为 Mashayekhi M，而非您提供的 Roberts S T。
+
+链接: https://doi.org/10.1530/JOE-25-0174
+
+备用链接: PubMed (PMID: 41042549)
+3. 替代原“中国人群 GLP-1R 与肥胖”的真实文献
+这篇真实文献通过病例对照研究，准确探讨了中国人群中 GLP-1R 基因多态性（特别是 rs761386 位点）与肥胖之间的关联，非常契合您第3篇的原始检索意图。
+
+标题: Associations of TCF7L2 rs11196218 (A/G) and GLP-1R rs761386 (C/T) Gene Polymorphisms with Obesity in Chinese Population
+
+作者: Yu T-H, Tang W-H, Lee T-L, 等
+
+期刊: Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy (2021)
+
+链接: https://doi.org/10.2147/DMSO.S306560
+
+备用链接: PubMed (PMID: 34045873)
+
+4. 替代原“GLP-1 药物基因组学综述”的真实文献
+针对药物基因组学，我为您精选了两篇高质量的真实文献供参考。第一篇是一篇标准的系统性综述，第二篇则是发表在顶级期刊的权威全基因组分析。
+
+选项 A（高度对口的系统性综述）
+
+标题: Pharmacogenomics of GLP-1 receptor agonists: Focus on pharmacological profile
+
+作者: Kaur S, 等
+
+期刊: European Journal of Pharmacology (2022)
+
+链接: https://doi.org/10.1016/j.ejphar.2022.175356
+
+备用链接: PubMed (PMID: 36330902)
+
+选项 B（顶级期刊的超大规模原著分析）
+
+标题: Pharmacogenomics of GLP-1 receptor agonists: a genome-wide analysis of observational data and large randomised controlled trials
+
+作者: Dawed A Y, 等
+
+期刊: The Lancet Diabetes & Endocrinology (2023)
+
+链接: https://doi.org/10.1016/S2213-8587(22)00340-8
+
+备用链接: PubMed (PMID: 36528349)
+1. rs10305492
+关联方向：GLP-1R 功能获得性突变（Gain-of-function）、心血管保护作用、β细胞胰岛素分泌。
+
+代表文献 A：Scott R A, et al. (2016). A genomic approach to therapeutic target validation identifies a glucose-lowering GLP1R variant protective for coronary heart disease. Science Translational Medicine, 8(341): 341ra76. （这是您在前面对话中提到的那篇高质量原著）
+
+代表文献 B：Wang X, et al. (2020). GLP1R Single-Nucleotide Polymorphisms rs3765467 and rs10305492 Affect β Cell Insulin Secretory Capacity and Apoptosis Through GLP-1. Frontiers in Endocrinology, 11, 465.
+
+2. rs6923761
+关联方向：GLP-1 受体激动剂的药物基因组学响应（如减重效果和胃排空延迟水平）、心血管危险因素。
+
+代表文献 A：de Luis D A, et al. (2018). rs6923761 gene variant in glucagon-like peptide 1 receptor: Allelic frequencies and influence on cardiovascular risk factors in a multicenter study of Castilla-Leon. Clinical Nutrition, 37(6), 2144-2148.
+
+代表文献 B：Sathananthan M, et al. (2010). Common genetic variation in GLP1R and insulin secretion in response to exogenous GLP-1 in nondiabetic subjects. Diabetes Care, 33(9), 2074-2076.
+
+3. rs3765467
+关联方向：2型糖尿病易感性、胰岛功能代谢。
+
+代表文献 A：张静静, 等. (2021). 胰高血糖素样肽1受体基因rs3765467变异与2型糖尿病的关联研究. 上海交通大学学报(医学版), 41(9), 1184-1189.
+
+代表文献 B：同 rs10305492 的 Wang X, et al. (2020) 研究，该文献在细胞层面同时解析了 rs3765467 和 rs10305492 两个位点对 β细胞的共同影响。
+
+4. rs2268657
+关联方向：胃排空速率（Gastric emptying rate）的个体生理学差异。
+
+代表文献：Yau A M W, et al. (2018). A Pilot Study Investigating the Influence of Glucagon-Like Peptide-1 Receptor Single Nucleotide Polymorphisms on Gastric Emptying Rate in Caucasian Men. Frontiers in Physiology, 9, 1331.
+
+5. rs2268641
+关联方向：中国人群的糖尿病肾病风险、绝经后骨质疏松/骨密度变化。
+
+代表文献 A：何珂, 等. (2025). GLP-1R rs2268641变异增加中国人糖尿病肾病风险. 基础医学与临床, (9): 1190-1194. （针对中国人群队列的最新研究）
+
+代表文献 B：Li Y, et al. (2023). Polymorphisms in the glucagon-like peptide-1 receptor gene and their interactions on the risk of osteoporosis in postmenopausal Chinese women. PLOS ONE, 18(12): e0295451. （注：该文献同时覆盖了您清单中的 rs2268641, rs10305492, rs6923761, rs2268657 等多个核心位点）
+
+6. rs10305420
+关联方向：靶向药物（如利拉鲁肽、艾塞那肽）在减重和血糖控制上的有效性差异（核心的 Pharmacogenetics 标志物）。
+
+代表文献 A：Eghbali M, et al. (2024). Glucagon-Like Peptide 1 (GLP-1) Receptor Variants and Glycemic Response to Liraglutide: A Pharmacogenetics Study in Iranian People with Type 2 Diabetes Mellitus. Advances in Therapy, 41, 680-692.
+
+代表文献 B：Jensterle M, et al. (2015). Genetic variability in GLP-1 receptor is associated with inter-individual differences in weight lowering potential of liraglutide in obese women with PCOS: a pilot study. European Journal of Clinical Pharmacology, 71, 817-824.

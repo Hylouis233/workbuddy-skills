@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "format": "wegene_affy_2",
+    "RS671": "AA",
+    "sex": 1,
+    "age": 30
+  }
+}

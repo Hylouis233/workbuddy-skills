@@ -1,0 +1,207 @@
+RISK_CATEGORIES = {
+    'ATA-HST': {
+        'name': '最高风险等级 (ATA-HST)',
+        'name_en': 'Highest Risk',
+        'description': '该等级突变与高侵袭性 MTC 高度相关。携带者甲状腺髓样癌发病风险极高，且发病年龄较早。根据 ATA 指南，通常建议在专业医生评估下，考虑早期预防性干预。',
+        'codons': [918, 883],
+        'color': '#d32f2f'
+    },
+    'ATA-H': {
+        'name': '高风险等级 (ATA-H)',
+        'name_en': 'High Risk',
+        'description': '该等级突变与 MTC 风险显著相关。携带者终身发病风险较高。ATA 指南建议密切监测，并根据具体情况考虑预防性手术的可能性。',
+        'codons': [634],
+        'color': '#f44336'
+    },
+    'ATA-MOD': {
+        'name': '中等风险等级 (ATA-MOD)',
+        'name_en': 'Moderate Risk',
+        'description': '该等级突变与 MTC 风险相关，但发病年龄相对较晚，侵袭性相对较低。建议定期进行降钙素水平监测，根据监测结果决定后续医疗方案。',
+        'codons': [609, 611, 618, 620, 630, 768, 790, 791, 804, 891],
+        'color': '#ffc107'
+    }
+}
+
+VARIANTS = {
+    'rs74799832': {
+        'rsid': 'RS74799832',
+        'codon': 918,
+        'exon': 16,
+        'protein_change': 'M918T',
+        'aa_change': 'Met918Thr',
+        'nucleotide_change': 'c.2753T>C',
+        'subtype': ['MEN2B'],
+        'ata_risk': 'ATA-HST',
+        'risk_level': '最高风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '95%',
+        'clinical_notes': 'M918T 是 MEN2B 亚型最常见的突变。研究表明该位点与较高的甲状腺髓样癌风险相关。',
+        'verification_status': 'verified',
+        'reference_allele': 'T',
+        'variant_allele': 'C',
+        'input_key': 'RS74799832'
+    },
+    'rs75249108': {
+        'rsid': 'RS75249108',
+        'codon': 883,
+        'exon': 15,
+        'protein_change': 'A883F',
+        'aa_change': 'Ala883Phe',
+        'nucleotide_change': 'c.2647C>T',
+        'subtype': ['MEN2B'],
+        'ata_risk': 'ATA-HST',
+        'risk_level': '最高风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '~5%',
+        'clinical_notes': 'A883F 是 MEN2B 亚型中较为少见的突变，临床风险等级与 M918T 相似。',
+        'verification_status': 'verified',
+        'reference_allele': 'C',
+        'variant_allele': 'T',
+        'input_key': 'RS75249108'
+    },
+    'rs75076352': {
+        'rsid': 'RS75076352',
+        'codon': 634,
+        'exon': 11,
+        'protein_change': 'C634R',
+        'aa_change': 'Cys634Arg',
+        'nucleotide_change': 'c.1900T>C',
+        'subtype': ['MEN2A'],
+        'ata_risk': 'ATA-H',
+        'risk_level': '高风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '~42%',
+        'clinical_notes': 'C634R 是 MEN2A 亚型中最常见的突变之一，与甲状腺髓样癌及嗜铬细胞瘤风险相关。',
+        'verification_status': 'verified',
+        'reference_allele': 'T',
+        'variant_allele': 'C',
+        'input_key': 'RS75076352'
+    },
+    'rs75996173': {
+        'rsid': 'RS75996173',
+        'codon': 634,
+        'exon': 11,
+        'protein_change': 'C634Y',
+        'aa_change': 'Cys634Tyr',
+        'nucleotide_change': 'c.1901G>A',
+        'subtype': ['MEN2A'],
+        'ata_risk': 'ATA-H',
+        'risk_level': '高风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '~27%',
+        'clinical_notes': 'C634Y 也是 MEN2A 亚型中的常见突变，风险等级较高。',
+        'verification_status': 'verified',
+        'reference_allele': 'G',
+        'variant_allele': 'A',
+        'input_key': 'RS75996173'
+    },
+    'rs75686487': {
+        'rsid': 'RS75686487',
+        'codon': 634,
+        'exon': 11,
+        'protein_change': 'C634W',
+        'aa_change': 'Cys634Trp',
+        'nucleotide_change': 'c.1901C>G',
+        'subtype': ['MEN2A'],
+        'ata_risk': 'ATA-H',
+        'risk_level': '高风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '~9%',
+        'clinical_notes': 'C634W 突变同样位于关键的 634 密码子，属于高风险类别。',
+        'verification_status': 'verified',
+        'reference_allele': 'C',
+        'variant_allele': 'G',
+        'input_key': 'RS75686487'
+    },
+    'rs75234356': {
+        'rsid': 'RS75234356',
+        'codon': 634,
+        'exon': 11,
+        'protein_change': 'C634S',
+        'aa_change': 'Cys634Ser',
+        'nucleotide_change': 'c.1900T>A',
+        'subtype': ['MEN2A'],
+        'ata_risk': 'ATA-H',
+        'risk_level': '高风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '~7%',
+        'clinical_notes': 'C634S 突变与 MEN2A 临床表现相关。',
+        'verification_status': 'verified',
+        'reference_allele': 'T',
+        'variant_allele': 'A',
+        'input_key': 'RS75234356'
+    },
+    'rs77503506': {
+        'rsid': 'RS77503506',
+        'codon': 609,
+        'exon': 10,
+        'protein_change': 'C609Y',
+        'aa_change': 'Cys609Tyr',
+        'nucleotide_change': 'c.1826G>A',
+        'subtype': ['MEN2A', 'FMTC'],
+        'ata_risk': 'ATA-MOD',
+        'risk_level': '中等风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '罕见',
+        'clinical_notes': 'C609Y 突变可能与 MEN2A 或 FMTC 相关，有时伴有先天性巨结肠。',
+        'verification_status': 'verified',
+        'reference_allele': 'G',
+        'variant_allele': 'A',
+        'input_key': 'RS77503506'
+    },
+    'rs77503508': {
+        'rsid': 'RS77503508',
+        'codon': 768,
+        'exon': 13,
+        'protein_change': 'E768D',
+        'aa_change': 'Glu768Asp',
+        'nucleotide_change': 'c.2304G>C',
+        'subtype': ['FMTC'],
+        'ata_risk': 'ATA-MOD',
+        'risk_level': '低风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '罕见',
+        'clinical_notes': 'E768D 多见于家族性甲状腺髓样癌 (FMTC)，发病相对较晚。',
+        'verification_status': 'verified',
+        'reference_allele': 'G',
+        'variant_allele': 'C',
+        'input_key': 'RS77503508'
+    },
+    'rs77503514': {
+        'rsid': 'RS77503514',
+        'codon': 891,
+        'exon': 15,
+        'protein_change': 'S891A',
+        'aa_change': 'Ser891Ala',
+        'nucleotide_change': 'c.2671T>G',
+        'subtype': ['FMTC'],
+        'ata_risk': 'ATA-MOD',
+        'risk_level': '低风险等级',
+        'clinical_significance': 'Pathogenic',
+        'frequency_in_subtype': '罕见',
+        'clinical_notes': 'S891A 通常与病情较轻的 FMTC 相关。',
+        'verification_status': 'verified',
+        'reference_allele': 'T',
+        'variant_allele': 'G',
+        'input_key': 'RS77503514'
+    }
+}
+
+EXCLUDED_RSIDS = ['rs77877000', 'rs75063161']
+
+UNSUPPORTED_VARIANTS = [
+    'rs77503501', 'rs75554058', 'rs77503502', 'rs77503504', 
+    'rs77503509', 'rs77503510', 'rs77503511', 'rs77503512', 'rs77503515'
+]
+
+LOCUS_ORDER = [
+    'rs74799832',
+    'rs75249108',
+    'rs75076352',
+    'rs75996173',
+    'rs75686487',
+    'rs75234356',
+    'rs77503506',
+    'rs77503508',
+    'rs77503514',
+]

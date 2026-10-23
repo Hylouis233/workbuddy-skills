@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "sex": 1,
+    "age": 30,
+    "format": "wegene_affy_2",
+    "RS10423928": "AT",
+    "RS1800437": "GC",
+    "RS11672660": "CT"
+  }
+}
